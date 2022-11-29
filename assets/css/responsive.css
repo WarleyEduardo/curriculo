@@ -1,0 +1,213 @@
+/*tablet  768 px*/
+
+@media screen and ( max-width: 768px){
+	
+	.item-habilidades{
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+
+/*tablet  425 px*/
+
+@media screen and ( max-width: 425px){
+	
+	.h-name{
+		margin-top: 10%;
+		margin-bottom: 50px;
+	}
+
+	.h-name h1{
+		font-size: 28px;
+	}
+
+	.h-name h2{
+		font-size: 22px;
+	}
+
+	/*sobre*/
+
+	.h-sobre{
+
+		width: 100%;
+		min-height: 100px;
+		margin-bottom: 50px;
+
+	}	
+
+	.h-title-sobre h2{
+
+		margin-top: 5%;
+		font-size: 22px;
+	}
+
+	.paragrafo{
+
+		font-size: 18px;
+	}
+
+	/*experiencia*/
+	.h-title-experiencia h2{
+
+		margin-top: 5%;
+		font-size: 22px;
+	}
+
+	.item-experiencia{
+
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		min-height: 220px;
+		margin-bottom: 50px;
+	}
+
+	.work{
+		min-width: 100%;
+		min-height: 80px;
+	}
+
+	.description{
+		min-width: 100%;
+		min-height: 100px;	
+	}
+
+	.description h2{
+
+		margin-bottom: 20px;
+	}
+
+	/*  educação */
+
+	.h-title-educacao h2{
+		margin-top: 5%;
+		font-size: 22px;
+	}
+
+
+	.item-educacao {
+
+		margin-bottom: 25px;
+
+	}
+
+	.item-educacao .title {
+
+		margin-bottom: 20px;
+
+	}
+
+	.item-educacao .title h2 , span{
+
+		font-size: 22px;
+
+	}
+
+	.h-title-habilidades h2{
+
+		margin-top: 5%;
+		font-size: 22px;
+	}
+
+
+	.item-habilidades {
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+
+	/*contato*/
+
+	.h-title-contato h2{
+		margin-top: 5%;
+		font-size: 22px;
+	}
+
+}
+
+
+/*tablet  375 px*/
+
+@media screen and ( max-width: 375px){
+
+	.h-name {
+		margin-top: 10%;
+		margin-bottom: 50px;
+	}
+    
+	.h-name h1{
+
+		font-size: 28px;
+	}
+
+	.h-name h2{
+		font-size: 22px;
+	}
+
+	/*sobre*/
+
+	.h-sobre{
+		width: 100%;
+		min-height: 100px;
+		margin-bottom: 50px;
+
+	}
+
+
+	.h-title-sobre h2{
+		margin-top: 5%;
+		font-size: 22px;
+	}
+
+	.paragrafo{
+		font-size: 18px;
+	}
+
+
+	.h-title-experiencia h2{
+
+		margin-top: 5%;
+		font-size: 22px;
+	}
+
+	.item-experiencia{
+
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		min-height: 220px;
+		margin-bottom: 50px;
+	}
+
+
+	.work{
+
+		min-width: 100%;
+		min-height: 80px;
+
+	}
+
+	.work h2 , .work p{
+		text-align: center;	
+	}
+
+	.description{
+		width: 100%;
+		min-height: 100px;
+	}
+
+	.description h2{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+}
