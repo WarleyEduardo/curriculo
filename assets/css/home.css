@@ -1,16 +1,32 @@
+	:root{
+
+		--cor1 : rgb(41,87,110);
+		--cor2 : rgb(15,35,54);
+		--cor3 : rgb(135,154,162);
+		--corBorda : rgb(15,35,54);
+		--corFundo :#fff;
+		
+	}
+	
 	.container {
 
 		width: 90%;
 		max-width: 2024px;
 		min-height: 100%;
 		margin: auto;
+		padding: 0 30px 0 30px;
+		background-color: var(--corFundo);
+		border-radius: 10px;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		
 	}
 
 	.h-name{
 
 		width: 100%;
 		min-height: 100px;
-		margin-top: 2%;
+		
 		margin-bottom: 100px;		
 		font-weight: bold;
 		text-transform: uppercase;
@@ -19,23 +35,12 @@
 
 	.h-name h1 {
 		font-size: 48px;		
-		color: #232323;
-		/*
-		font-family: 'Oswald', sans-serif;
-		font-weight: bold;
-		text-transform: uppercase;
-		*/
+		color: var(--cor2)
 	}
 
 	.h-name h2 {
 		font-size: 32px;		
-		color: red;
-		/*color: red;*/
-		/*
-		font-family: 'Oswald', sans-serif;
-		font-weight: bold;
-		text-transform: uppercase;
-		*/
+		color: var(--cor1);
 	}
 
 	.h-sobre {
@@ -46,22 +51,28 @@
 
 	}
 
+	
+
 	.h-title-sobre{
 		width: 100%;
 		height: 50px;
-		border-bottom: 2px solid #00E0FF;
+		border-bottom: 2px solid  var(--corBorda) ;
 		margin-bottom: 25px;
 	}
 
-	.h-title-sobre h2{
+
+	.titulo-h2 h2 {
+
 		margin-top: 5px;
 		font-weight: bold;
 		font-size: 26px;
 		text-transform: uppercase;
-		color: #000;
-	}
+		color: var(--cor2) ;
+	} 
 
-	.paragraf{
+
+
+	.paragrafo{
 		font-style: normal;
 		text-align: justify;
 		font-size: 18px;
@@ -71,19 +82,10 @@
 
 		width: 100%;
 		height: 50px;
-		border-bottom: 2px solid #00E0FF ;
-		margin-bottom: 50px;
+		border-bottom: 2px solid var(--corBorda) ;
+		margin-bottom: 25px;
 	}	
 
-	.h-title-experiencia h2{
-
-		margin-top: 5%;
-		font-weight: bold;
-		font-size: 26px;
-		text-transform: uppercase;
-		color: #000;		
-
-	}	
 	
 	.h-itens{
 		width: 100%;
@@ -106,45 +108,43 @@
 		min-height: 100px;
 	}
 
-	.work h2{
-		
-		font-weight: bold;
+
+	.work h2{		
 		font-size: 22px;
+		margin : 0;
 		margin-bottom: 10px;
-		text-transform: uppercase;
-		color: #000;
-	}
-
-	.work p{
 		
-		font-weight: normal;
+	}
+
+
+	.paragrafo-padrao p span{
+	   font-weight: normal;
 		font-size: 22px;
 		text-transform: uppercase;
-		color: #000;
+		color: var(--cor2);		
+
 	}
 
-	.description {
-
-		width: 75%;
-		min-height: 100px;
-	}
-
-	.description h2{
-
-		font-weight: bold;
-		font-size: 22px;
-		margin-bottom: 10px;
-		text-transform: uppercase;
-		color: #00E0FF;
-	}
 
 	.description p{
-
-		font-weight: normal;
-		font-size: 18px;	
-		text-transform: uppercase;
-		color: #000;
+		
+		font-size: 18px;
 	}
+
+
+
+	.description {
+		width: 75%;
+		min-height: 100px;
+	}	
+
+
+	.description h2{		
+		font-size: 22px;
+		margin: 0;
+		margin-bottom: 10px;	
+	}
+
 
 .h-educacao{
 	width: 100%;
@@ -155,50 +155,36 @@
 
 	width: 100%;
 	height: 50px;
-	border-bottom: 2px solid #00E0ff;
+	border-bottom: 2px solid var(--corBorda);
 	margin-bottom: 50px;
 
  }
 
- .h-title-educacao h2{
-	margin-top: 5%;
-	font-weight: bold;
-	font-size: 26px;
-	text-transform: uppercase;
-	color: #000;	
- }
 
  .item-educacao{
 	width: 100%;
 	min-height: 100px;
  }
 
-
  .item-educacao .title{
 	margin-bottom: 10px;
  }
 
-  .item-educacao .title h2{
-	font-weight: bold;
-	font-size: 22px;
-	text-transform: uppercase;
-	color: #232323;
+.item-educacao .title h2{	
+	font-size: 22px;	
  }
 
-   .item-educacao .title span{
-	font-weight: bold;
-	font-size: 22px;
-	text-transform: uppercase;
-	color: #00E0FF;
- }
 
+.item-educacao .title span{
+	color: var(--cor1);
+ }
 
  .item-educacao p {
 
 	font-weight: normal;
 	text-align: justify;
 	font-size: 18px;
-	color: #000
+	color: var(--cor2);
  }
 
  .h-habilidades {
@@ -207,22 +193,11 @@
 	min-height: 100px;
 	margin-bottom: 100px;	
  }
-
  .h-title-habilidades{
 	width: 100%;
 	height: 50px;
-	border-bottom: 2px solid #00E0FF;
+	border-bottom: 2px solid var(--corBorda);
 	margin-bottom: 50px;
- }
-
- .h-title-habilidades h2{
-
-   margin-top: 5%;
-   font-weight: bold;
-   font-size: 26px;
-   text-transform: uppercase;
-   color: #000;
-	
  }
 
  .item-habilidades{
@@ -238,20 +213,17 @@
 	 min-width: 150px;
  }
 
- .item-habilidades h2{
-	font-weight: bold;
+ .item-habilidades h2{	
 	font-size: 18px;
-	text-transform: uppercase;
-	color: #000;
  }
-
+ 
 
  .icon{
 	position: relative;
 	width: 200px;
 	height: 18px;
 	overflow: hidden;
-	border: 1px solid #e7e7e7;
+	border: 1px solid var(--cor3);
 	border-radius: 6px;
 	background-color: transparent;
  }
@@ -260,7 +232,7 @@
  .percentual {
   	height: 100%;
 	border-radius: 6px;
-	background-color: #00E0FF;
+	background-color: var(--cor1);
  }
 
  .percentual-10{
@@ -310,23 +282,17 @@
  .h-contato{
 	width: 100%;
 	min-height: 200px;
-	margin-bottom: 50px;
+	
  }
+
+
 
  .h-title-contato{
 
 	width: 100%;
 	min-height: 50px;
-    border-bottom: 2px solid #00E0FF;
+    border-bottom: 2px solid var(--corBorda);
 	margin-bottom: 50px;
- }
-
- .h-title-contato h2{
-	margin-top: 5%;
-	font-weight: bold;
-	font-size: 26px;
-	text-transform: uppercase;
-	color: #000;
  }
 
 
@@ -336,13 +302,9 @@
 	min-height: 80px;
  }
 
- .item-contato h2{
 
-	font-weight: bold;
+ .item-contato h2{	
 	font-size: 18px;
-	text-transform: uppercase;
-	color: #000;
-
  }
 
   .item-contato p{
@@ -350,13 +312,12 @@
 	font-weight: bold;
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #00E0FF;
+	color: var(--cor1) ;
 
  }
 
- footer{
+ .rodape{
 
-	width: 100%;
-	height: 50px;
-	background-color: #00E0FF;
+	border-bottom: 50px solid var(--cor1);
+
  }
