@@ -10,6 +10,15 @@
 		width: 100%;
 		margin-bottom: 20px;
 	}
+
+
+	/*Experiencia*/
+
+	.item-experiencia {
+         
+		margin-bottom: 50px;
+
+	}
 }
 
 
@@ -210,4 +219,62 @@
 		margin-bottom: 20px;
 	}
 
+	/*Educação*/
+
+	.h-title-educacao h2{
+      margin-top: 5% ;
+	  font-size: 22px
+	}
+
+	.item-educacao{
+
+		margin-bottom: 50px;
+	}
+
+
+	.item-educacao .title{
+		margin-bottom: 20px;
+	}
+
+	.item-educacao .title h2 , .item-educacao .title span{
+
+		font-size: 22px;
+	}
+
+	/*habilidades*/
+
+	.h-title-habilidades h2{
+
+		margin-top: 5%;
+		font-size: 22px;
+	}
+
+	.item-habilidades{
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.item-habilidades .title{
+
+		min-width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.item-habilidades .icon{
+
+		width: 100%;
+
+
+	}
+
+	/*contato*/
+	.h-title-contato h2{
+
+		margin-top: 5%;
+		font-size: 22px;
+	}
 }
